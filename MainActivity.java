@@ -171,28 +171,4 @@ public class MainActivity extends Activity
         controller.delete_msg();
     }
 
-
-    /*public void editSMS(View v)
-    {
-        pnum = controller.select_pnum();
-
-        controller.delete_msg(pnum);
-
-        num.setEnabled(true);
-        mmg.setEnabled(true);
-        setTime.setEnabled(true);
-        setDate.setEnabled(true);
-        send.setEnabled(true);
-
-        pnum = controller.select_pnum();
-        msg = controller.select_msg();
-        tim = controller.select_time();
-
-        num.setText(pnum);
-        mmg.setText(msg);
-        dis.setText(tim);
-
-        num.requestFocus();
-
-    }*/
 }
